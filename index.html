@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورود و ثبت‌نام</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>ورود و ثبت‌نام</h2>
+    <div class="container">
+        <form action="register.php" method="post">
+            <h3>ثبت‌نام</h3>
+            <input type="text" name="username" placeholder="نام کاربری" required>
+            <input type="text" name="name" placeholder="نام" required>
+            <input type="password" name="password" placeholder="رمز عبور" required>
+            <button type="submit">ثبت‌نام</button>
+        </form>
+        <form action="login.php" method="post">
+            <h3>ورود</h3>
+            <input type="text" name="username" placeholder="نام کاربری" required>
+            <input type="password" name="password" placeholder="رمز عبور" required>
+            <button type="submit">ورود</button>
+        </form>
+    </div>
+</body>
+</html>
